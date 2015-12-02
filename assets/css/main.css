@@ -1575,6 +1575,7 @@
 		line-height: 1.85em;
 		font-family: 'Source Sans Pro', sans-serif;
 		font-weight: 300;
+		outline: none;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -1873,6 +1874,7 @@
 
 	form label {
 		display: block;
+		font-size: 24px;
 		font-weight: 400;
 		color: #483949;
 		margin: 0 0 1em 0;
@@ -1887,9 +1889,10 @@
 		display: block;
 		border: 0;
 		background: #fafafa;
-		width: 100%;
+		width: 155%;
 		border-radius: 0.5em;
 		border: solid 1px #E5E5E5;
+		margin: 0 0 1em 0;
 		padding: 1em;
 		-moz-transition: background-color 0.35s ease-in-out, border-color 0.35s ease-in-out;
 		-webkit-transition: background-color 0.35s ease-in-out, border-color 0.35s ease-in-out;
@@ -1940,46 +1943,6 @@
 	form ::-moz-focus-inner {
 		border: 0;
 	}
-
-/* Table */
-
-	table {
-		width: 100%;
-	}
-
-		table.default {
-			width: 100%;
-		}
-
-			table.default tbody tr {
-				border-top: solid 1px #e5e5e5;
-			}
-
-				table.default tbody tr:first-child {
-					border-top: 0;
-				}
-
-				table.default tbody tr:nth-child(2n+1) {
-					background: #fafafa;
-				}
-
-			table.default td {
-				padding: 0.5em 1em 0.5em 1em;
-			}
-
-			table.default th {
-				text-align: left;
-				font-weight: 400;
-				padding: 0.5em 1em 0.5em 1em;
-			}
-
-			table.default thead {
-				border-bottom: solid 2px #e5e5e5;
-			}
-
-			table.default tfoot {
-				border-top: solid 2px #e5e5e5;
-			}
 
 /* Button */
 
@@ -2711,6 +2674,12 @@
 			header > p {
 				font-size: 1.25em;
 			}
+
+		/* Contact */
+
+		form > table {
+			margin: 0 auto;
+		}
 
 		/* Image */
 
