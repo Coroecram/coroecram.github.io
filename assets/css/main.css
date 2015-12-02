@@ -1951,7 +1951,7 @@
 	.button {
 		position: relative;
 		display: inline-block;
-		background: #389010;
+		background: #81A773;
 		color: #fff;
 		text-align: center;
 		border-radius: 0.5em;
@@ -1973,7 +1973,7 @@
 		button:hover,
 		.button:hover {
 			color: #fff;
-			background: #67B743;
+			background: #A9CC9C;
 		}
 
 		input[type="button"].alt,
