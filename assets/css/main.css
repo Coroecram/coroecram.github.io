@@ -1870,12 +1870,27 @@
 
 /* Form */
 
+	.email-form:after, .email-form:before {
+		content: '';
+		display: block;
+		clear: both;
+		height: 0;
+	}
+
 	form label {
 		display: block;
+		float: left;
 		font-size: 24px;
 		font-weight: 400;
+		text-align: right;
+		width: 160px;
 		color: #483949;
-		margin: 0 0 1em 0;
+		margin: 0.5em;
+	}
+
+	form input[type="submit"] {
+		display: block;
+		margin: 0 auto;
 	}
 
 	form input[type="text"],
@@ -1885,12 +1900,13 @@
 	form textarea {
 		-webkit-appearance: none;
 		display: block;
+		float: left;
 		border: 0;
 		background: #fafafa;
-		width: 155%;
+		width: 55%;
 		border-radius: 0.5em;
 		border: solid 1px #E5E5E5;
-		margin: 0 0 1em 0;
+		margin: 0 auto 1em auto;
 		padding: 1em;
 		-moz-transition: background-color 0.35s ease-in-out, border-color 0.35s ease-in-out;
 		-webkit-transition: background-color 0.35s ease-in-out, border-color 0.35s ease-in-out;
