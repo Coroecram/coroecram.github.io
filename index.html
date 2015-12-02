@@ -15,22 +15,6 @@
 	</head>
 	<body class="homepage">
 		<div id="page-wrapper">
-
-			<!-- Header -->
-				<div id="header">
-
-					<!-- Inner -->
-						<div class="inner">
-							<header>
-								<h1><a href="index.html" id="logo">Michael Budnick</a></h1>
-								<hr />
-								<p>A Full-Stack Web Developer</p>
-							</header>
-							<footer>
-								<a href="#main" class="button alt circled scrolly">More</a>
-							</footer>
-						</div>
-
 					<!-- Nav -->
 						<nav id="nav">
 							<ul>
@@ -43,6 +27,8 @@
 						</nav>
 
 				</div>
+
+				<h1><a href="index.html" id="logo">Michael Budnick</a></h1>
 
 				<div class="wrapper style2">
 
@@ -112,10 +98,10 @@
 									porttitor phasellus tempus cubilia ultrices tempor sagittis. Nisl fermentum consequat integer interdum.
 								</p>
 							</article>
-							<article class="4u 12u(mobile) special">
+						<!--	<article class="4u 12u(mobile) special">
 								<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
 								<header>
-									<!-- <h3><a href="#">Rails Lite</a></h3>
+									 <h3><a href="#">Rails Lite</a></h3>
 								</header>
 								<p>
 									Amet nullam fringilla nibh nulla convallis tique ante proin sociis accumsan lobortis. Auctor etiam
@@ -147,12 +133,13 @@
 
 				</div>
 
-			<!-- Footer -->
+			<!--
+			Footer
 				<div id="footer">
 					<div class="container">
 						<div class="row">
 
-							<!-- Tweets -->
+							<!-- Tweets
 								<section class="4u 12u(mobile)">
 									<header>
 										<h2 class="icon fa-twitter circled"><span class="label">Tweets</span></h2>
@@ -185,7 +172,7 @@
 									</ul>
 								</section>
 
-							<!-- Posts -->
+							<!-- Posts
 								<section class="4u 12u(mobile)">
 									<header>
 										<h2 class="icon fa-file circled"><span class="label">Posts</span></h2>
@@ -226,7 +213,7 @@
 									</ul>
 								</section>
 
-							<!-- Photos -->
+							<!-- Photos
 								<section class="4u 12u(mobile)">
 									<header>
 										<h2 class="icon fa-camera circled"><span class="label">Photos</span></h2>
@@ -260,24 +247,64 @@
 
 								<!-- Contact -->
 									<section class="contact">
-										<header>
-											<h3>Nisl turpis nascetur interdum?</h3>
-										</header>
-										<p>Urna nisl non quis interdum mus ornare ridiculus egestas ridiculus lobortis vivamus tempor aliquet.</p>
-										<ul class="icons">
-											<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-											<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-											<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-											<li><a href="#" class="icon fa-pinterest"><span class="label">Pinterest</span></a></li>
-											<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-											<li><a href="#" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
-										</ul>
-									</section>
+									<form name="htmlform" method="post" action="html_form_send.php">
+										<table width="450px">
+											</tr>
+											<tr>
+										 		<td valign="top">
+										  		<label for="first_name">First Name *</label>
+										 		</td>
+										 		<td valign="top">
+										  		<input  type="text" name="first_name" maxlength="50" size="30">
+										 		</td>
+											</tr>
+											<tr>
+										 		<td valign="top"">
+										  		<label for="last_name">Last Name *</label>
+										 		</td>
+										 		<td valign="top">
+										  		<input  type="text" name="last_name" maxlength="50" size="30">
+										 		</td>
+											</tr>
+											<tr>
+										 		<td valign="top">
+										  		<label for="email">Email Address *</label>
+										 		</td>
+										 		<td valign="top">
+										  		<input  type="text" name="email" maxlength="80" size="30">
+										 		</td>
+
+											</tr>
+											<tr>
+										 		<td valign="top">
+										  		<label for="telephone">Telephone Number</label>
+										 		</td>
+										 		<td valign="top">
+										  		<input  type="text" name="telephone" maxlength="30" size="30">
+										 		</td>
+											</tr>
+											<tr>
+										 		<td valign="top">
+										  		<label for="comments">Comments *</label>
+										 		</td>
+										 		<td valign="top">
+										  			<textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+										 		</td>
+
+											</tr>
+												<tr>
+										 			<td colspan="2" style="text-align:center">
+										  				<input type="submit" value="Submit">   ( <a href="http://www.freecontactform.com/html_form.php">HTML Form</a> )
+										 			</td>
+												</tr>
+											</table>
+										</form>
+									</section> -->
 
 								<!-- Copyright -->
 									<div class="copyright">
 										<ul class="menu">
-											<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+											<li>&copy; Helios. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 										</ul>
 									</div>
 
