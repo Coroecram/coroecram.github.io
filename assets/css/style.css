@@ -285,6 +285,10 @@ h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 80px;
 }
 
+#aboutwrap h2 {
+  letter-spacing: 3px;
+}
+
 .name {
 	text-align: center;
 }
