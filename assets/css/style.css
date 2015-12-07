@@ -372,6 +372,11 @@ h1, h2, h3, h4, h5, h6 {
 	background-image: url(../img/portfolio-sep.jpg);
 }
 
+.portfolio img {
+  width: 100%;
+  height: auto;
+}
+
 /* Service Wrap */
 #servicewrap {
 	display: block;
@@ -442,6 +447,11 @@ h1, h2, h3, h4, h5, h6 {
 /* Gallery Configuration */
 .row h1 {
   letter-spacing: 3px;
+  font-weight: 500;
+}
+
+.row p {
+  text-align: left;
 }
 
 .photo-wrapper {
