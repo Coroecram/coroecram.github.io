@@ -414,6 +414,10 @@ h1, h2, h3, h4, h5, h6 {
 	color: #767676
 }
 
+#resume-form {
+  text-align: center;
+}
+
 /* Testimonials Wrap */
 #testimonials {
 	display: block;
