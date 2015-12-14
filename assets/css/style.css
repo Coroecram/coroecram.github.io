@@ -513,6 +513,22 @@ h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
 }
 
+.github-link {
+  display: block;
+  color: black;
+  font-size: 16px;
+  text-align: center;
+}
+
+.github-link:hover {
+  cursor: pointer;
+  color: #A9A9A9;
+  -webkit-transition: color 0.4s;
+  -moz-transition: color 0.4s;
+  -o-transition: color 0.4s;
+  transition: color 0.4s;
+}
+
 /*.project:hover .photo-wrapper {
   background-color: #2f2f2f;
 	top: 0;
