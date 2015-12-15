@@ -490,6 +490,21 @@ h1, h2, h3, h4, h5, h6 {
   transition: background-color 0.4s;
 }
 
+.project a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.project a:hover {
+  cursor: pointer;
+
+  color: #696969;
+  -webkit-transition: color 0.4s;
+  -moz-transition: color 0.4s;
+  -o-transition: color 0.4s;
+  transition: color 0.4s;
+}
+
 .project .overlay {
   position: absolute;
   text-align: center;
@@ -513,16 +528,22 @@ h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
 }
 
-.github-link {
-  display: block;
-  color: black;
-  font-size: 16px;
-  text-align: center;
+#github-link {
+  text-decoration: none;
+  margin: 0 ;
 }
 
-.github-link:hover {
+#github-link i {
+  color: black;
+  font-size: 32px;
+  text-align: center;
+  margin: 0 calc(50% - 16px);
+}
+
+#github-link i:hover {
   cursor: pointer;
-  color: #A9A9A9;
+
+  color: #696969;
   -webkit-transition: color 0.4s;
   -moz-transition: color 0.4s;
   -o-transition: color 0.4s;
