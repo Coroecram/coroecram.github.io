@@ -15,9 +15,10 @@
 
     <!-- Custom styles for this template -->
     <link href="assets/css/style.css" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/img/favicon.ico">
     <link href="assets/js/fancybox/jquery.fancybox.css" rel="stylesheet" />
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
-    <link href="assets/css/devicon.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
 
   </head>
 
@@ -32,14 +33,16 @@
 			<a href="#about" class="smoothScroll">About</a>
 			<a href="#portfolio" class="smoothScroll">Portfolio</a>
 			<a href="#resume" class="smoothScroll">Resume</a>
+      <a href="#blog" class="smoothScroll">Blog</a>
 			<a href="#contact" class="smoothScroll">Contact</a>
 			<a href="mailto:michaeldbudnick@gmail.com"><i class="fa fa-envelope"></i></a>
-			<a href="http://github.com/coroecram"><i class="devicon-github-plain"></i></a>
-      <a href="https://www.linkedin.com/in/michael-budnick-79a40b60"><i class="fa fa-linkedin"></i></a>
-      <a href="https://www.facebook.com/michael.budnick1"><i class="fa fa-facebook"></i></a>
-      <a href="https://twitter.com/__budnick"><i class="fa fa-twitter"></i></a>
-      <a href="https://www.instagram.com/michaelbudnick/"><i class="fa fa-instagram"></i></a>
-      <a href="//www.rssblur.com"><i class="fa fa-rss"></i></a>
+			<a href="//www.github.com/coroecram" target="_blank"><i class="devicon-github-plain"></i></a>
+      <a href="//www.linkedin.com/in/michael-budnick-79a40b60" target="_top"><i class="fa fa-linkedin"></i></a>
+      <!-- <a href="https://www.facebook.com/michael.budnick1"><i class="fa fa-facebook"></i></a> -->
+      <a href="//www.twitter.com/__budnick" target="_blank"><i class="fa fa-twitter"></i></a>
+      <!-- <a href="//medium.com/@michaeldbudnick" target="_blank"><i class="fa fa-medium"></i></a> -->
+      <!-- <a href="https://www.instagram.com/michaelbudnick/"><i class="fa fa-instagram"></i></a> -->
+      <a href="//www.rssblur.com" target="_blank"><i class="fa fa-rss"></i></a>
 		</div>
 
 		<!-- Menu button -->
@@ -74,7 +77,7 @@
 						<p>Born and raised in the small town of Terryville, Connecticut (the birthplace of mass-production), I remember spending my childhood with the seasons: biking in the spring breeze, swimming in the summer sun, hiking in the autumn woods, and sledding on snowy winter days. Now that I think about it, that's also how I remember spending my adulthood.</p>
 					</div>
 					<div class="col-md-6 bio">
-						<p>Like many kids of the 1990s, I grew up up amidst the greatest technological advancements in human history. We grew up with the the speed of our modems. We shared birthdays with iPods. We knew how to Google before our parents did. We were raised with these accomplishments. Now, as adults, we are the ones responsible for the future.</p>
+						<p>Like many kids of the 1990s, I was born amidst the greatest technological advancements in human history. We grew up with the the speed of our modems. We shared birthdays with iPods. We knew how to Google before our parents did. We were raised with these accomplishments. Now, as adults, we are the ones responsible for the future.</p>
             <!-- <p>Earning a full-scholarship to St. John's University, I studied Anthropology based upon my many overlapping interests. Excited by the prospects of genomics, I took a couple courses in Biology and, based upon my performance therein, was offered a Teaching Assistantship by the department to get a Master's degree. Life, scientifically, became living computer programs with trillions of bitsy cells with billions of bits of information to me.</p>
             <p>Life, anthropologically speaking, remained: what would I make of myself? Becoming a PhD is becoming a PhD, and after working for some time as a tech in a professional lab, I was not confident that would be the best path for me. Shifting gears to become a web developer, I am able to apply all my skills in a creative field.</p> -->
 					</div>
@@ -135,17 +138,17 @@
 	                    <div class="project">
 	                        <div class="photo-wrapper">
 	                            <div class="photo">
-	                            	<a class="fancybox" href="//rssblur.com"><img class="img-responsive" src="assets/img/rssblur.png" alt=""></a>
+	                            	<a class="fancybox" href="//www.rssblur.com" target="_blank"><img class="img-responsive" src="assets/img/rssblur-audobon.jpg" alt=""></a>
 	                            </div>
-                                <div class="git-link"></div>
-                                <div class="html-link"></div>
 	                            <div class="overlay"></div>
 	                        </div>
-                            <h2>RSS Blur</h2>
+                            <h2><a href="//www.rssblur.com" target="_blank">RSS Blur</a></h2>
                             <p>A full-stack application based on <a href="//www.newsblur.com">NewsBlur</a>
                               where users can follow their favorite RSS feeds. It is implemented
                               on a single page using PostgreSQL, React.js, and AJAX requests to real-world feeds.
                             </p>
+                            <br/>
+                            <a id="github-link" href="//github.com/Coroecram/RssBlur" target="_blank"><i class="devicon-github-plain"></i></a>
 	                    </div>
 	                </div>
 				</div><!-- col-lg-4 -->
@@ -155,34 +158,49 @@
 	                    <div class="project">
 	                        <div class="photo-wrapper">
 	                            <div class="photo">
-	                            	<a class="fancybox" href="http://www.mikebudnick.com/bountyhunter"><img class="img-responsive" src="assets/img/bountyhunter.png" alt=""></a>
+	                            	<a class="fancybox" href="http://www.mikebudnick.com/bountyhunter" target="_blank"><img class="img-responsive" src="assets/img/bountyhunter.png" alt=""></a>
 	                            </div>
-                                <div class="git-link"></div>
-                                <div class="html-link"></div>
 	                            <div class="overlay"></div>
 	                        </div>
-                          <h2>Bounty Hunter</h2>
+                          <h2><a href="http://www.mikebudnick.com/bountyhunter" target="_blank">Bounty Hunter</a></h2>
                           <p>A Javascript on HTML canvas derivation of the arcade
                             classic Asteroids. With WASD + Spacebar commands handled
                             by the Keymaster plugin, the player has to stay out of
                             bankruptcy for as long as possible by collecting woolong bounties in space.
                           </p>
+                          <a id="github-link" href="//github.com/Coroecram/bountyhunter" target="_blank"><i class="devicon-github-plain"></i></a>
 	                    </div>
 	                </div>
 				</div><!-- col-lg-4 -->
-
-				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
 					<div class="project-wrapper">
 	                    <div class="project">
 	                        <div class="photo-wrapper">
 	                            <div class="photo">
-	                            	<a class="fancybox" href="https://github.com/Coroecram/Ruby-Metaprogramming-ORM"><img class="img-responsive" src="assets/img/orm.png" alt=""></a>
+	                            	<a class="fancybox" href="//http://www.pomodoro.top" target="_blank"><img class="img-responsive" src="assets/img/pomo_doro.jpg" alt=""></a>
 	                            </div>
-                                <div class="git-link"></div>
-                                <div class="html-link"></div>
 	                            <div class="overlay"></div>
 	                        </div>
-                          <h2>Metaprogrammed ORM</h2>
+                          <h2><a href="//http://www.pomodoro.top" target="_blank">Pomo D'Oro</a></h2>
+                          <p>
+                            Based on the popular Pomodoro Technique, Pomo D'Oro is
+                            an AngularJS single-page application with a Rails on PostgreSQL
+                            backend which can be used to plan and manage tasks that bring
+                            a little bit of discord into the world.
+                          </p>
+                          <a id="github-link" herf="//https://github.com/Coroecram/PomoDoroApp" target="_blank"><i class="devicon-github-plain"></i></a>
+	                    </div>
+	                </div>
+				<!-- <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
+					<div class="project-wrapper">
+	                    <div class="project">
+	                        <div class="photo-wrapper">
+	                            <div class="photo">
+	                            	<a class="fancybox" href="github.com/Coroecram/Ruby-Metaprogramming-ORM" target="_blank"><img class="img-responsive" src="assets/img/orm.png" alt=""></a>
+	                            </div>
+	                            <div class="overlay"></div>
+	                        </div>
+                          <h2><a href="//github.com/Coroecram/Ruby-Metaprogramming-ORM" target="_blank">Metaprogrammed ORM</a></h2>
                           <p>
                             An exercise to understand the mechanics of Rails,
                             SQL, ActiveRecord, RSpec, and Ruby metaprogramming.
@@ -190,8 +208,9 @@
                             of ActiveRecord models, along with methods like find,
                             has_many, and belongs_to.
                           </p>
+                          <a id="github-link" herf="//github.com/Coroecram/Ruby-Metaprogramming-ORM" target="_blank"><i class="devicon-github-plain"></i></a>
 	                    </div>
-	                </div>
+	                </div> -->
 				</div><!-- col-lg-4 -->
 			</div><!-- /row -->
 
@@ -283,12 +302,12 @@
 					<i class="devicon-react-original"></i><p>REACT.JS<br/></p>
 					<p class="text"></p>
 				</div>
+        <div class="col-lg-3 service">
+          <i class="devicon-angularjs-plain"></i><p>ANGULAR<br/></p>
+          <p class="text"></p>
+        </div>
 				<div class="col-lg-3 service">
 					<i class="devicon-css3-plain"></i><p>CSS<br/></p>
-					<p class="text"></p>
-				</div>
-				<div class="col-lg-3 service">
-					<i class="devicon-html5-plain"></i><p>HTML5<br/></p>
 					<p class="text"></p>
 				</div>
 				<div class="col-lg-3 service">
@@ -296,7 +315,12 @@
 					<p class="text"></p>
 				</div>
 			</div><! --/row -->
+      <div class="row mt">
 
+        <a href="https://drive.google.com/file/d/0BySrPeeWowxGSnJKMUJxU3dGQms/view?usp=sharing" id="resume-button">
+          <i class="fa fa-download"></i> View Resume
+        </a>
+    </div>
 		</div><! --/container -->
 	</div><! --/servicewrap -->
 
@@ -304,44 +328,29 @@
 	<section id="contact" name="contact"></section>
 	<! -- CONTACT SEPARATOR -->
 	<div class="sep contact" data-stellar-background-ratio="0.5"></div>
-
+<!-- <script async src="https://static.medium.com/embed.js"></script><section id="blog"><a class="m-profile" data-width="100%" href="https://medium.com/@michaeldbudnick"></a></section> -->
 	<div id="contactwrap">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6">
-					<p>CONTACT</p>
+					<p>CONTACT INFO</p>
           <p>
           </p>
 					<p>
 						<small>
 						        <a href="mailto:michaeldbudnick@gmail.com"><i class="fa fa-envelope-o"></i>michaeldbudnick@gmail.com</a></br>
-                    <a href="https://www.linkedin.com/in/michael-budnick-79a40b60"><i class="fa fa-linkedin-square"></i>Michael Budnick</a></br>
-                    <a href="https://www.facebook.com/michael.budnick1"><i class="fa fa-facebook-official"></i>Michael Budnick</a></br>
-                    <a href="https://twitter.com/__budnick"><i class="fa fa-twitter-square"></i>@_budnick</a></br>
-                    <a href="https://www.instagram.com/michaelbudnick/"><i class="fa fa-instagram"></i>@michaelbudnick</a></br>
-                    <a href="https://github.com/coroecram/"> <i class="fa fa-github-square"></i>Coroecram</a></br>
-                    Hipchat. <a href="https://hipchat.com/">@michaelbudnick</a><br/>
+                    <a href="//www.linkedin.com/in/michael-budnick-79a40b60" target="_blank" ><i class="fa fa-linkedin-square"></i>Michael Budnick</a></br>
+                    <!-- <a href="https://www.facebook.com/michael.budnick1"><i class="fa fa-facebook-official"></i>Michael Budnick</a></br> -->
+                    <a href="//twitter.com/__budnick" target="_blank"><i class="fa fa-twitter-square"></i>@__budnick</a></br>
+                    <!-- <a href="https://www.instagram.com/michaelbudnick/"><i class="fa fa-instagram"></i>@michaelbudnick</a></br> -->
+                    <a href="//github.com/coroecram/" target="_blank"> <i class="fa fa-github-square"></i>Coroecram</a></br>
                     <br/>
             </small>
 					</p>
 
 				</div>
 
-				<div class="col-lg-6">
-					<form name="htmlform" method="post" action="http://formspree.io/michaeldbudnick@gmail.com">
-					  <div class="form-group">
-					    <label for="exampleInputName1">Your Name</label>
-					    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter name">
-					    <label for="exampleInputEmail1">Email address</label>
-					    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
-					    <label for="exampleInputText1">Message</label>
-					    <textarea class="form-control" rows="3"></textarea>
-					  </div>
-					  <button type="submit" class="btn btn-default">Submit</button>
-					</form>
-				</div>
-
-			</div><! --/row -->
+		    </div><! --/row -->
 		</div><!-- /container -->
 	</div>
 

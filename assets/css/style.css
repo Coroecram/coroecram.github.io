@@ -276,7 +276,7 @@ h1, h2, h3, h4, h5, h6 {
 	letter-spacing: 8px;
 	font-size: 100px;
 	font-weight: bold;
-	text-shadow: 2px 2px 2px #000;
+	text-shadow: 10px 10px 5px #000;
 }
 
 /* About Wrap & Conf */
@@ -335,6 +335,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 .about {
 	background-image: url(../img/unisphere-min.jpg);
+}
+
+.img-responsive {
+  width: auto;
+  height: 240px;
 }
 
 /* Portfolio Wrap Section */
@@ -414,6 +419,22 @@ h1, h2, h3, h4, h5, h6 {
 	color: #767676
 }
 
+#resume-button {
+  display: block;
+  width: 150px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 6px;
+  background: #0099ff;
+  color: #ffffff;
+  transition: background-color 0.5s ease;
+}
+
+#resume-button:hover {
+  background: #99ccff;
+  text-decoration: none;
+}
+
 /* Testimonials Wrap */
 #testimonials {
 	display: block;
@@ -448,7 +469,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .contact {
-	background-image: url(../img/sunset-min.jpg);
+	background-image: url(../img/gwb-fix.jpg);
 }
 
 #contactwrap label {
@@ -474,6 +495,21 @@ h1, h2, h3, h4, h5, h6 {
   transition: background-color 0.4s;
 }
 
+.project a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.project a:hover {
+  cursor: pointer;
+
+  color: #696969;
+  -webkit-transition: color 0.4s;
+  -moz-transition: color 0.4s;
+  -o-transition: color 0.4s;
+  transition: color 0.4s;
+}
+
 .project .overlay {
   position: absolute;
   text-align: center;
@@ -495,6 +531,28 @@ h1, h2, h3, h4, h5, h6 {
 .photo-wrapper {
   border-radius: 5px;
   overflow: hidden;
+}
+
+#github-link {
+  text-decoration: none;
+  margin: 0 ;
+}
+
+#github-link i {
+  color: black;
+  font-size: 32px;
+  text-align: center;
+  margin: 0 calc(50% - 16px);
+}
+
+#github-link i:hover {
+  cursor: pointer;
+
+  color: #696969;
+  -webkit-transition: color 0.4s;
+  -moz-transition: color 0.4s;
+  -o-transition: color 0.4s;
+  transition: color 0.4s;
 }
 
 /*.project:hover .photo-wrapper {
